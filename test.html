@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Название статьи — Infopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mw-page-container">
+    <!-- ШАПКА -->
+    <header class="mw-header">
+        <div class="logo-area">
+            <div class="logo" id="homeLogo"></div>
+            <div class="logo-text"><span>Infopedia</span></div>
+        </div>
+        <button class="mobile-toggle" id="sidebarToggle">☰ Меню</button>
+    </header>
+
+    <div class="mw-body-wrapper">
+        <!-- БОКОВАЯ ПАНЕЛЬ (только главная страница) -->
+        <aside class="mw-sidebar" id="sidebar">
+            <div class="mw-sidebar-section">
+                <h3>Навигация</h3>
+                <ul>
+                    <li><a href="index.html" id="mainPageLink">Заглавная страница</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- ОСНОВНОЙ КОНТЕНТ (статья) -->
+        <main class="mw-body-content">
+            <h1 class="firstHeading">Название статьи</h1>
+            <hr style="margin: 12px 0 20px; border-color: #eaecf0;">
+
+            <!-- Инфобокс -->
+            <table class="infobox">
+                <caption>Информационная карточка</caption>
+                <tr><th>Тип</th><td>Свободный контент</th></tr>
+                <tr><th>Лицензия</th><td>CC BY-SA</th></tr>
+                <tr><th>Версия</th><td>1.0</th></tr>
+            </table>
+
+            <p><strong>Здесь начинается текст статьи.</strong> Это пример шаблона, выполненного в стиле классической энциклопедии. Вы можете заменить этот текст на своё содержание.</p>
+
+            <p>Статья содержит <strong>основной текст</strong> и другие элементы форматирования, характерные для энциклопедических статей.</p>
+
+            <h2>Первый раздел</h2>
+            <p>Содержание первого раздела. Здесь описывается основная тема статьи, приводятся факты и определения.</p>
+
+            <table class="wikitable">
+                <caption>Пример таблицы</caption>
+                <thead>
+                    <tr><th>Заголовок 1</th><th>Заголовок 2</th><th>Заголовок 3</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Данные 1</td><td>Данные 2</td><td>Данные 3</td></tr>
+                    <tr><td>Данные 4</td><td>Данные 5</td><td>Данные 6</td></tr>
+                </tbody>
+            </table>
+
+            <h2>Второй раздел</h2>
+            <p>Содержание второго раздела.</p>
+
+            <ul>
+                <li>Первый пункт списка</li>
+                <li>Второй пункт списка</li>
+                <li>Третий пункт списка</li>
+            </ul>
+
+            <blockquote style="background:#f9f9f9; border-left: 4px solid #36c; padding: 12px 20px; margin: 16px 0;">
+                «Это пример цитаты, которая может быть вставлена в статью для выделения важной мысли.»
+            </blockquote>
+
+            <h2>Примечания</h2>
+            <div style="font-size:0.8rem; color:#555;">
+                <ol>
+                    <li>Пример сноски с пояснением.</li>
+                    <li>Второе примечание к статье.</li>
+                </ol>
+            </div>
+        </main>
+    </div>
+
+    <!-- ПОДВАЛ (только лицензия) -->
+    <footer class="mw-footer">
+        <div>Материалы распространяются на условиях свободной лицензии.</div>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
