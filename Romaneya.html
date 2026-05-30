@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Романея</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mw-page-container">
+    <header class="mw-header">
+        <div class="logo-area">
+            <img src="infopedia.png" alt="Infopedia" class="logo" id="homeLogo">
+            <div class="logo-text"><span>Infopedia</span></div>
+        </div>
+        
+        <div class="search-container">
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" class="search-input" placeholder="Поиск в Infopedia" autocomplete="off">
+                <button class="search-btn">🔍</button>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </div>
+        
+        <button class="mobile-toggle" id="sidebarToggle">☰ Меню</button>
+    </header>
+
+    <div class="mw-body-wrapper">
+        <aside class="mw-sidebar" id="sidebar">
+            <div class="mw-sidebar-section">
+                <h3>Навигация</h3>
+                <ul>
+                    <li><a href="index.html" id="mainPageLink">Заглавная страница</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="mw-body-content">
+            <h1 class="firstHeading">Романейская Народная Республика</h1>
+            <hr style="margin: 12px 0 20px; border-color: #eaecf0;">
+
+            <!-- ИНФОБОКС С ЛОКАЛЬНЫМИ ИЗОБРАЖЕНИЯМИ И АУДИО -->
+            <table class="infobox">
+                <caption>Романейская Народная Республика</caption>
+                
+                
+                <!-- ОДНО ИЗОБРАЖЕНИЕ С ПОДПИСЬЮ -->
+                <tr>
+                    <td colspan="2" style="text-align: center; background: #f9f9f9;">
+                        <img src="flags/Romaneya.png"
+                             alt="Флаг Романейской Народной Республики" 
+                             class="infobox-img infobox-img-single"
+                             width="60%">
+                        <div class="infobox-image-caption">Флаг Романейской Народной Республики</div>
+                    </td>
+                </tr>
+                
+                
+                <!-- Обычные строки инфобокса -->
+                <tr><th>Столица</th><td>Букхорест</td></tr>
+                <tr><th>Крупнейшие города</th><td>Букхорест, Яйсы</th></tr>
+                <tr><th>Официальный язык</th><td>Романейский</td></tr>
+                <tr><th>Форма правления</th><td>однопартийная парламентская республика</th></tr>
+                <tr><th>Государственный строй</th><td>социалистическое общенародное государство</th></tr>
+                <tr><th>Государственная религия</th><td>Светское государство</th></tr>
+                <tr><th>Председатель Президиума Великого народного собрания</th><td>Временно отсутствует</td></tr>
+                <tr><th>Территория</th><td>238 397 км²</td></tr>
+                <tr><th>Население</th><td>146 447 424 чел.</td></tr>
+                <tr><th>Валюта</th><td>Романейский Лэй</td></tr>
+            </table>
+
+            <p><strong>Романейская Народная Республика</strong> — государство в Еканзии, существующее в современном виде с 29 декабря 1947 года по настоящее время. Является суверенным социалистическим государством, строящимся на принципах социализма и находящимся в тесных союзнических отношениях с Союзом Народных Социалистических Республик (СНСР).</p>
+
+        </main>
+    </div>
+</div>
+
+<script src="search.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
