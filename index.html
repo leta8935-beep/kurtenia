@@ -8,12 +8,20 @@
 </head>
 <body>
 <div class="mw-page-container">
-    <!-- ШАПКА -->
     <header class="mw-header">
         <div class="logo-area">
-            <div class="logo" id="homeLogo"></div>
+            <img src="infopedia.png" alt="Infopedia" class="logo" id="homeLogo">
             <div class="logo-text"><span>Infopedia</span></div>
         </div>
+        
+        <div class="search-container">
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" class="search-input" placeholder="Поиск в Infopedia" autocomplete="off">
+                <button class="search-btn">🔍</button>
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </div>
+        
         <button class="mobile-toggle" id="sidebarToggle">☰ Меню</button>
     </header>
 
@@ -34,11 +42,7 @@
             <hr style="margin: 12px 0 20px; border-color: #eaecf0;">
             <h2>Инструменты</h2>
             <ul>
-                <li><a href="mir.html" id="mainPageLink">Карта</a></li>
-            </ul>
-            <h2>Страны</h2>
-            <ul>
-                <li><a href="snsr.html" id="mainPageLink">СНСР</a></li>
+                <li><a href="world.html" id="mainPageLink">Карта</a></li>
             </ul>
         </main>
     </div>
